@@ -1,27 +1,28 @@
 import React, { useState } from 'react'
-import TopBar from './Components/TopBar'
-import Cards from './Components/Cards'
+import TopBar from './components/TopBar'
+
+
 
 function App() {
   let [todo,setTodo]=useState([
     {
     id:1,
     title:" Office Task-1",
-    description:"this is the description for my first task",
+    description:"This is the description for my first task",
     status:false
 
   },
   {
     id:2,
     title:" Office Task-2",
-    description:"this is the description for my second task",
+    description:"This is the description for my second task",
     status:false
     
   },
   {
     id:3,
     title:" Office Task-3",
-    description:"this is the description for my third task",
+    description:"This is the description for my third task",
     status:false
     
   }
